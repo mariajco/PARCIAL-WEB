@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .html {
+    font-size: 62%;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+  }
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    padding: 0;
+    z-index: 12;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .menu-items {
+    display: flex;
+    order: 2;
+    margin-right: 4.0rem;
+  }
+  .menu-items li {
+    margin-left: 3.5rem;
+    font-size: 1.0rem;
+    font-weight: bold;
+  }
+  .menu-items a {
+    text-decoration: none;
+    color: white;
+    
+
+  }
+  .logo{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 2.1rem;
+    margin-left: 20PX;
+    padding-left: 1;
+    flex-direction: column;
+  }
+  .logo-startup {
+    display: block; }
+
+.logo-institute {
+    display: block;  }
+
+.showcase-area {
+    height: 90vh;
+    background: linear-gradient(
+     rgba(340, 340, 340, 0.144),
+     rgba(955, 955, 955, 0.824)
+    ), url("https://th.bing.com/th/id/OIP.VM0Q3pE5j0qs8qE_5o9T1gHaFj?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+      }
+
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    font-size: 1.4rem;
+    row-gap: 8px;
+    margin-bottom: 2rem;
+}
+.main-title {
+    text-transform: uppercase;
+    margin-top: 3.5em;
+    font-size: 3rem;
+    color: black;
+  }
+.showcase-container p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: bold;
+    line-height: 1.0; 
+  }
+  .btn {
+    display: inline-block;
+    padding: 0.9em 1.9em;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: small;
+  }
+.btn-primary {
+    color: #fff;
+    background: rgb(220, 24, 47);
+
+
+  }
+.programs-section {
+    padding: 3rem 2rem;
+    background-color: white;
+    text-align: center;
+  }
+  
+.section-title {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 4rem;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+  
+.column {
+    max-width: 80%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;;
+    text-align: center;
+    text-align: left;
+  }
+  
+.column-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+  }
+.column h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #333;
+
+  }
+  
+.column p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+.column .btn-primary {
+    background-color: white;
+    color: #dc182f;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #bb1526;
+  }
+  
+.column .btn-primary:hover {
+    background-color: #bb1526;
+  }
+  .footer {
+    background-color: rgb(34, 32, 32);
+    padding: 4rem 0;
+    text-align: center;
+  }
+.footer-links {
+    color: #333;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.footer-links a {
+  color: #9a9292;
+}
+.footer-bottom {
+  color: #e3dcdc; 
+}
